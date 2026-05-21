@@ -8,8 +8,8 @@ class CalculatorApp:
         self.root.title("SCI-CA")
         self.root.geometry("500x850")
 
-        self.memory_value = None  # Store memory value
-        self.use_degrees = True  # Default mode is degrees
+        self.memory_value = None
+        self.use_degrees = True
 
         self.screen = tk.StringVar()
         self.create_widgets()
@@ -40,7 +40,7 @@ class CalculatorApp:
             ["sin", "cos", "tan", "="],
             ["log", "ln", "sqrt", "**"],
             ["(", ")", "π", "e"],
-            ["M", "MR"]  # Memory buttons
+            ["M", "MR"]
         ]
         
         for i, row in enumerate(buttons):
