@@ -32,3 +32,4 @@ python calculator.py
 
 This project is open-source and free to use.
 
+(This project is at the development stage)
